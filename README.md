@@ -46,4 +46,17 @@ We used the following input pattern for training our models:
 - Weight decay: 0.01
 - LR: 2e-5 -> 1e-6
 
+| Model | CV | Public LB | Private LB |
+| --- | --- | --- | --- |
+| deberta-v3-large | 0.8287 | 0.8406 | 0.8548 |
+| bert-for-patents | 0.8202 | 0.8304 | 0.8440 |
+| roberta-large | 0.7920 | 0.8176 | 0.8246 |
+| funnel-transformer/large | 0.8178 | - | - |
+| electra-large | 0.8241 | - | - |
+
 ## Final ensemble
+| Approach | CV | Public LB | Private LB |
+| --- | --- | --- | --- |
+| Nelder-Mead  | 0.8514 | 0.8494 | 0.8627 |
+| Catboost | 0.8534 | 0.8482 | 0.8632 |
+| LinearRegression | 0.8517 | 0.8494 | 0.8632 |
