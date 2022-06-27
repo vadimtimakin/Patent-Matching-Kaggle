@@ -22,7 +22,7 @@ We used the following input pattern for training our models:
 
 | Model | CV | Public LB | Private LB |
 | --- | --- | --- | --- |
-| deberta-v3-large | 0.8185 | 0.8357 | 0.8537 |
+| deberta-v3-large | 0.8185 | 0.8357 | 0.8537 |.  
 | electra-large | 0.8025 | 0.8095 | 0.8192 |
 | bert-for-patents | 0.8106 | 0.8290 | 0.8403 |
 | patenta-sberta | 0.7798 | 0.7889 | 0.8105 |
