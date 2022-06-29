@@ -36,7 +36,7 @@ We used the following input pattern for training our models:
 | xlnet-large-cased | 0.7003 | - | - |
 | bert-large-uncased | 0.7687 | - | - |
 
-## Kenjiro's and Radmir's part
+## k_s's and Radmir's part
 - Epochs: 5
 - Optimizer: Adam
 - Scheduler: Cosine 
